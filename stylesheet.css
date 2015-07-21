@@ -38,7 +38,7 @@ button {
 	width: 1080px;
 	height: 633px;
 	background-image: url("images/logo.png");
-	display: center;
+	margin-top: 643px;
 }
 
 /* menu */
