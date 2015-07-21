@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#logo").fadeIn(3000, function(){
+	$("#logo").fadeIn(5000, function(){
 		showInformation_A();
 	});
 
