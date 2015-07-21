@@ -36,6 +36,7 @@ div {
 
 /* information */
 #information_A {
+	position: absolute;
 	width: 1080px;
 	height: 633px;
 	background-image: url("images/information_A.png");
