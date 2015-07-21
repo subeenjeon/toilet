@@ -1,9 +1,12 @@
 $(document).ready(function(){
 	$("#logo").fadeIn(3000, function(){
-		showInformation_A();
+		showLogo();
 	});
 
-/*	$("#information_A").click(function(){
+	$("#showLogo").click(function(){
+		showInformation_A();
+	});
+	$("#information_A").click(function(){
 		showInformation_B();
 	});
 	$("#information_B").click(function(){
@@ -17,14 +20,19 @@ $(document).ready(function(){
 	});
 	$("#Q_select01").click(function(){
 		backToInformation_A();
-	});*/
+	});
 });
+
+var showLogo = function() {
+	$("#logo").fadeOut();
+	$("#logo").fadeIn();
+};
 
 var showInformation_A = function() {
 	$("#logo").fadeOut();
 	$("#information_A").fadeIn();
 };
-/*
+
 var showInformation_B = function() {
 	$("#information_A").fadeOut();
 	$("#information_B").fadeIn();
