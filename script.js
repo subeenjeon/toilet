@@ -1,52 +1,26 @@
 $(document).ready(function(){
 	$("#logo").fadeIn(3000, function(){
-		showMenu();
-	});
-	$("#menu").hide();
-	$("#player").hide();
-
-	$("#playButton").click(function(){
-		showPlayer();
+		showInformation_A();
 	});
 
-	$("#player").click(function(){
-		backToMenu();
+	$("#information_A").click(function(){
+		showInformation_B();
 	});
-});
+	$("#information_B").click(function(){
+		showInformation_C();
+	});
 
-$(document).ready(function(){
-	$("ul.song li").click(function(){
-	$("ul.song li").removeClass("selected");
-	$(this).addClass("selected");
+	$("#information_C").click(function(){
+		backToInformation_A();
 	});
 });
 
-$(document).ready(function(){
-	$("ul.seat li").click(function(){
-	$("ul.seat li").removeClass("selected");
-	$(this).addClass("selected");
-	});
-});
-
-var showMenu = function() {
+var showInformation_A = function() {
 	$("#logo").fadeOut();
-	$("#menu").fadeIn();
+	$("#information_A").fadeIn();
 };
 
-var backToMenu = function() {
-	$("#player").fadeOut();
-	$("#menu").fadeIn();
+var backToInformation_A = function() {
+	$("#information_C").fadeOut();
+	$("#information_A").fadeIn();
 };
-
-var showPlayer = function() {
-	$("#menu").fadeOut();
-	$("#player").fadeIn();
-}
-
-var setVideo = function() {
-	var song = $("ul.song .selected").attr("id");
-	var seat = $("ul.seat .selected").attr("id");
-	var vidName = "video/" + song + "-" + seat + ".mp4";
-	$("source").attr("src", vidName);
-	$("video").load();
-}
