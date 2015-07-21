@@ -24,14 +24,20 @@ div {
 	position: absolute;
 }
 
-/* loader */
-#loader {
+/* question */
+#Q_01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/Q_01.png");
+	margin-top: 0px;
 }
-#logo {	
-	width: 1080px;
-	height: 633px;
-	background-image: url("images/logo.png");
-	margin-top: 640px;
+#Q_select01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/Q_select01.png");
+	margin-top: 0px;
 }
 
 /* information */
@@ -57,18 +63,12 @@ div {
 	margin-top: 0px;
 }
 
-/* question */
-#Q_01 {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-image: url("images/Q_01.png");
-	margin-top: 0px;
+/* loader */
+#loader {
 }
-#Q_select01 {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-image: url("images/Q_select01.png");
-	margin-top: 0px;
+#logo {	
+	width: 1080px;
+	height: 633px;
+	background-image: url("images/logo.png");
+	margin-top: 640px;
 }
