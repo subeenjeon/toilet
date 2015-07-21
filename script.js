@@ -20,24 +20,9 @@ $(document).ready(function(){
 	});
 });
 
-var showInformation_A = function() {
-	$("#logo").fadeOut();
+var backToInformation_A = function() {
+	$("#Q_select01").fadeOut();
 	$("#information_A").fadeIn();
-};
-
-var showInformation_B = function() {
-	$("#information_A").fadeOut();
-	$("#information_B").fadeIn();
-};
-
-var showInformation_C = function() {
-	$("#information_B").fadeOut();
-	$("#information_C").fadeIn();
-};
-
-var showQ_01 = function() {
-	$("#information_C").fadeOut();
-	$("#Q_01").fadeIn();
 };
 
 var showQ_select01 = function() {
@@ -45,7 +30,26 @@ var showQ_select01 = function() {
 	$("#Q_select01").fadeIn();
 };
 
-var backToInformation_A = function() {
-	$("#Q_select01").fadeOut();
+var showQ_01 = function() {
+	$("#information_C").fadeOut();
+	$("#Q_01").fadeIn();
+};
+
+var showInformation_C = function() {
+	$("#information_B").fadeOut();
+	$("#information_C").fadeIn();
+};
+
+var showInformation_B = function() {
+	$("#information_A").fadeOut();
+	$("#information_B").fadeIn();
+};
+
+var showInformation_A = function() {
+	$("#logo").fadeOut();
 	$("#information_A").fadeIn();
 };
+
+
+
+
