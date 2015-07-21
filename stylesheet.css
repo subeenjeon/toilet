@@ -42,3 +42,33 @@ div {
 	background-image: url("images/information_A.png");
 	margin-top: 0px;
 }
+#information_B {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/information_B.png");
+	margin-top: 0px;
+}
+#information_C {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/information_C.png");
+	margin-top: 0px;
+}
+
+/* question */
+#Q_01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/Q_01.png");
+	margin-top: 0px;
+}
+#Q_select01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/Q_select01.png");
+	margin-top: 0px;
+}
