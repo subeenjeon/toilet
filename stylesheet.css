@@ -19,16 +19,9 @@ div {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	text-align: center;
 }
 .view div {
 	position: absolute;
-}
-
-button {
-	width: 50%;
-	height: 10%;
-	margin: 5%;
 }
 
 /* loader */
@@ -41,10 +34,10 @@ button {
 	margin-top: 640px;
 }
 
-/* menu */
-#menu {
+/* information */
+#information_A {
 }
-#menu .title {
+#information_A .infor {
 	height: 51px;
 	left: 25px;
 }
