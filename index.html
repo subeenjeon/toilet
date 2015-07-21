@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>toilet/title>
+
+	<meta name="viewport" content="width=320, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="stage">
+		<div class="view" id="loader">
+			<div id="logo"></div>
+		</div>
+
+		<div class="view" id="menu">
+			<div class="title" id="title-song"></div>
+			<ul class="button song">
+				<li id="song1"></li>
+				<li id="song2"></li>
+				<li id="song3"></li>
+			</ul>
+			<div class="title" id="title-seat"></div>
+			<ul class="button seat">
+				<li id="seatA"></li>
+				<li id="seatB"></li>
+						</ul>
+			<div id="playButton"></div>
+		</div>
+
+		<div class="view" id="player">
+			<video width="100%" height="100%" controls>
+  				<source src="video/song1-seatA.mp4" type="video/mp4">
+			</video>
+		</div>
+
+	</div>
+</body>
+</html>

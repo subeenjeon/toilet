@@ -1,0 +1,197 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div {
+	background-size: cover;
+	background-position: center;
+}
+
+#stage {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/bg.png");
+}
+
+.view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.view div {
+	position: absolute;
+}
+
+button {
+	width: 50%;
+	height: 10%;
+	margin: 5%;
+}
+
+/* loader */
+#loader {
+}
+#logo {	
+	left: 80px;
+	top: calc(50% - 44px);
+	width: 1080px;
+	height: 633px;
+	background-image: url("images/logo.png");
+	display: none;
+}
+
+/* menu */
+#menu {
+}
+#menu .title {
+	height: 51px;
+	left: 25px;
+}
+#title-song {
+	top: 40px;
+	width: 131px;
+	background-image: url("images/title_song.png");
+}
+ul {
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	top: 80px;
+	left: -16px;
+}
+ul.song li {
+	background-size: cover; 
+	background-position: center; 
+	width: 255px;
+	height: 69px;
+	margin-left: 50px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: -23px; 
+}
+ul.song li:nth-child(1) {
+	background-image: url("images/button_song_01_normal.png");
+}
+ul.song li:nth-child(2) {
+	background-image: url("images/button_song_02_normal.png");
+}
+ul.song li:nth-child(3) {
+	background-image: url("images/button_song_03_normal.png");
+}
+ul.song li:nth-child(1).selected {
+	background-image: url("images/button_song_01_selected.png");
+}
+ul.song li:nth-child(2).selected {
+	background-image: url("images/button_song_02_selected.png");
+}
+ul.song li:nth-child(3).selected {
+	background-image: url("images/button_song_03_selected.png");
+}
+#title-seat {
+	top: 240px;
+	width: 112px;
+	background-image: url("images/title_seat.png");
+}
+ul {
+	position: absolute;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ul.seat {
+	top: 300px;
+	width: 265px;
+	margin-left: 33px;
+	margin-top: 5px;
+	}
+ul.seat li {
+	background-size: cover; 
+	background-position: center; 
+	display : inline-block;
+	width: 89px;
+	height: 88px;
+	margin-left: 9px;
+	margin-top: -30px;
+	margin-right: -19px;
+	margin-bottom: 3px;
+}
+ul.seat li:nth-child(1) {
+	background-image: url("images/button_seat_A_normal.png");
+}
+ul.seat li:nth-child(2) {
+	background-image: url("images/button_seat_B_normal.png");
+}
+ul.seat li:nth-child(3) {
+	background-image: url("images/button_seat_C_normal.png");
+}
+ul.seat li:nth-child(4) {
+	background-image: url("images/button_seat_D_normal.png");
+}
+ul.seat li:nth-child(5) {
+	background-image: url("images/button_seat_E_normal.png");
+}
+ul.seat li:nth-child(6) {
+	background-image: url("images/button_seat_F_normal.png");
+}
+ul.seat li:nth-child(7) {
+	background-image: url("images/button_seat_G_normal.png");
+}
+ul.seat li:nth-child(8) {
+	background-image: url("images/button_seat_H_normal.png");
+}
+ul.seat li:nth-child(9) {
+	background-image: url("images/button_seat_I_normal.png");
+}
+
+ul.seat li:nth-child(1).selected {
+	background-image: url("images/button_seat_A_selected.png");
+}
+ul.seat li:nth-child(2).selected {
+	background-image: url("images/button_seat_B_selected.png");
+}
+ul.seat li:nth-child(3).selected {
+	background-image: url("images/button_seat_C_selected.png");
+}
+ul.seat li:nth-child(4).selected {
+	background-image: url("images/button_seat_D_selected.png");
+}
+ul.seat li:nth-child(5).selected {
+	background-image: url("images/button_seat_E_selected.png");
+}
+ul.seat li:nth-child(6).selected {
+	background-image: url("images/button_seat_F_selected.png");
+}
+ul.seat li:nth-child(7).selected {
+	background-image: url("images/button_seat_G_selected.png");
+}
+ul.seat li:nth-child(8).selected {
+	background-image: url("images/button_seat_H_selected.png");
+}
+ul.seat li:nth-child(9).selected {
+	background-image: url("images/button_seat_I_selected.png");
+}
+
+#playButton {
+	bottom: 40px;
+	left: calc(50% - 111px);
+	width: 223px;
+	height: 42px;
+	top:500px;
+	background-image: url("images/button_start_normal.png");
+}
+#playButton:active {
+	background-image: url("images/button_start_selected.png");
+}
+
+/* player */
+
+
+
+#view2 {
+}
+#view3 {
+}
