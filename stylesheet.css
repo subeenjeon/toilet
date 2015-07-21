@@ -36,8 +36,7 @@ div {
 
 /* information */
 #information_A {
-}
-#information_A .infor {
-	height: 51px;
-	left: 25px;
+	width: 1080px;
+	height: 633px;
+	background-image: url("images/information_A.png");
 }
