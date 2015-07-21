@@ -24,7 +24,7 @@ var showInformation_A = function() {
 	$("#logo").fadeOut();
 	$("#information_A").fadeIn();
 };
-
+/*
 var showInformation_B = function() {
 	$("#information_A").fadeOut();
 	$("#information_B").fadeIn();
